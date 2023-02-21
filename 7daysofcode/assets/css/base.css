@@ -1,0 +1,12 @@
+:root {
+	--branco: #FFFFFF;
+	--vinho: #8E2424;
+	--vinho-transparente: #C3191908;
+	--azul-claro: #F9FAFB;
+	--azul-escuro: #101828;
+	--cinza: #667085;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}

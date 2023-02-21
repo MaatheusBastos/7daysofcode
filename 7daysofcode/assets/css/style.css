@@ -1,0 +1,224 @@
+.cabecalho {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 10vw;
+}
+
+.navegacao__lista {
+	display: flex;
+	gap: 2rem;
+	font-weight: 500;
+	color: var(--cinza);
+}
+
+.navegacao {
+	margin-right: auto;
+	margin-left: 12rem;
+}
+
+.botao {
+	padding: 0.625rem 1.125rem;
+	color: var(--cinza);
+	font-weight: 500;
+}
+
+.botao-vinho {
+	background-color: var(--vinho);
+	color: var(--branco);
+	border-radius: 5px;
+}
+
+.sobre {
+	padding: 6rem 15vw;	
+	text-align: center;
+}
+
+.subtitulo {
+	color: var(--vinho);
+}
+
+.titulo {
+	color: var(--azul-escuro);
+}
+
+.descricao {
+	color: var(--cinza);
+}
+
+.subtitulo__sobre {
+	font-weight: 600;
+}
+
+.titulo__sobre {
+	padding: 2.5rem 0;
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.descricao__sobre {
+	font-size: 1.25rem;
+	line-height: 30px;
+}
+
+.stats {
+	padding: 0 10vw 6rem 10vw;
+}
+
+.stats__lista {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.subtitulo__stats {
+	font-size: 3.75rem;	
+	font-weight: 600;
+}
+
+.titulo__stats {
+	font-size: 1.125rem;
+	font-weight: 500;
+	padding: 1.5rem 0 1rem 0;
+}
+
+.descricao__stats {
+	line-height: 24px;
+}
+
+.stats li {
+	width: 300px;
+}
+
+.descricao__link {
+	display: inline-block;
+}
+
+.procura {
+	padding: 6rem 0;
+}
+
+.vagas {
+	text-align: center;
+}
+
+.subtitulo__vagas {
+	display: inline-block;
+	background-color: var(--vinho-transparente);
+	font-size: 0.875rem;
+	font-weight: 600;
+	padding: 0.5rem;
+	border-radius: 15px;
+}
+
+.titulo__vagas {
+	font-size: 2.25rem;
+	font-weight: 600;
+	padding: 1rem 0 2rem 0;
+}
+
+.descricao__vagas {
+	font-size: 1.25rem;
+}
+
+.imagem__vagas {
+	margin: 4rem 0;
+}
+
+.area {
+	padding: 0 15vw;
+}
+
+.area + div {
+	margin-bottom: 5rem;
+}
+
+.titulo__area {
+	font-size: 1.25rem;
+	font-weight: 500;
+	padding-bottom: 2rem; 
+}
+
+.area__lista li {
+	border: 1px solid #EAECF0;
+	border-radius: 10px;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.titulo__profissoes {
+	font-size: 1.125rem;
+	font-weight: 500;
+	padding-bottom: 2rem
+}
+
+.descricao__profissoes {
+	display: inline-block;
+	padding-right: 1rem;
+}
+
+.feedback {
+	background-color: var(--vinho-transparente);
+	border-radius: 15px;
+	text-align: center;
+	padding: 4rem;
+	margin: 0 10vw 6rem 10vw;
+
+}
+
+.subtitulo__feedback {
+	font-size: 0.875rem;
+	font-weight: 600;
+}
+
+.titulo__feedback {
+	font-size: 2rem;
+	font-weight: 500;
+	padding: 1.5rem 0;
+}
+
+.imagem__feedback {
+	padding: 0.5rem 0;
+}
+
+.descricao__feedback {
+	font-size: 0.875rem;
+	padding-top: 0.5rem;
+}
+
+.descricao__nome {
+	font-weight: 500;
+	padding-top: 0.5rem;
+}
+
+.rodape {
+	background-color: var(--azul-claro);
+	text-align: center;
+	padding: 6rem 0;
+}
+
+.titulo__rodape {
+	font-size: 2.25rem;
+	font-weight: 600;
+}
+
+.descricao__rodape {
+	font-size: 1.25rem;
+	padding: 2rem 0;
+}
+
+.input__rodape {
+	width: 22%;
+	padding: 0.625rem 1.125rem;
+	margin-right: 1rem;
+	border-radius: 5px;
+	border: 1px solid #D0D5DD;
+}
+
+.input__rodape::placeholder {
+	color: var(--cinza);
+}
+
+.descricao__autorais {
+	padding: 2rem 0;
+}
